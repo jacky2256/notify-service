@@ -1,0 +1,12 @@
+{% trans %}Hi{% endtrans %} {{ first_name }} {{ last_name }},
+
+{% trans %}Thank you for registering in the FJC_RS project.{% endtrans %}
+
+{% trans %}Login:{% endtrans %} {{ login }}
+{% trans %}Password:{% endtrans %} {{ password }}
+
+{% trans %}Please confirm your registration details by clicking the link below:{% endtrans %}
+<a href="{{ confirm_url }}">{% trans %}Confirm Registration{% endtrans %}</a>
+
+{% trans %}Best regards,
+The FJC_RS Team{% endtrans %}
